@@ -39,15 +39,13 @@
 
 // Question No 09;
 // var number = "472"
-// var number1 = 472
-// console.log(number1);
-// console.log(number);
-
-
+// console.log(Number(number));
 
 // Question No 11;
-// var userInputName = prompt("Write a name of Programing language?");
-// console.log(userInputName);
+// var num = 35.54;
+// var str = num.replace("35.54","3554");
+// console.log("Number: " +num);
+// console.log("Number: " +str);
 
 // Question No 12;
 // var bakery = ["Apple","Banana","Cake","Pastry","Pineapple","Grapes"];
@@ -72,11 +70,6 @@
 // var myCityName = prompt("Enter a city name?");
 // console.log(myCityName.lastIndexOf());
 
-// Question No 14; Reapeat Q1
-// var firstName = "Hasnain";
-// var lastName = "Qari";
-// console.log(firstName + lastName);
-
 // Question No 15;
 // var phoneList = ["Samsung","Motrola","Vivo","Infinix","Oppo","Techno","iPhone",];
 
@@ -94,8 +87,37 @@
 //     alert("Oops! This is not your Favorite Phone");
 // }
 
-// Task 1;
+// Question No 14;
+// var userInputPassword = prompt("Enter Your Password");
 // var passwordCapital = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 // var passwordSmall = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-// var passwordNumber = [0.1,2,3,4,5,6,7,8,9]; 
-// console.log()
+// var passwordNumber = ["0","1","2","3","4","5","6","7","8","9"]; 
+
+// var isNumber = false;
+// var isAlpha = false;
+// var isInvalid = false;
+
+// if (passwordNumber.indexOf(userInputPassword[0]) !== -1) {
+//     alert("Number is not allowed on index 0");
+// }
+// else if(userInputPassword.length < 6){
+//     alert("Password should be at leasat 6");
+// }
+//  else {
+//   for(var i = 0; i < userInputPassword.length; i++){
+//       if(passwordCapital.indexOf(userInputPassword[i]) !== -1){
+//         isAlpha = true
+//       }else if(passwordSmall.indexOf(userInputPassword[i]) !== -1){
+//         isAlpha = true
+//       }else if(passwordNumber.indexOf(userInputPassword[i]) !== -1){
+//         isNumber = true
+//       }else{
+//         isInvalid = true
+//       }
+//   }
+//   if(isAlpha && isNumber && !isInvalid){
+//     alert("Correct password");
+//   }else{
+//     alert("Password is Wrong / Special charactors are not allowed");
+//   }
+// }
